@@ -50,3 +50,30 @@ var string: String = "sddd"
 print(string.count)
 //end
 
+//Task 3+4
+
+var a: Int = 15
+let b: Float = 3.1
+var result = Float(a) * b
+print(result)
+
+let c: Double = 33.33
+let d: Int = 3
+var result1 = d / Int(a)
+print(result1)
+
+let e: Double = 4.3
+let f: Float = 4.45
+var result2 = e + Double(f)
+print(result2)
+
+let t: Int = 18
+let h: Float = 4.99
+var result3 = Float(t) - f
+print(result3)
+
+let j: Int = 16
+let k: Float = 77.77
+var result4 = j % Int(k)
+print(f)  //остаток от деления имеет тип Float, почему тогда нельзя сразу делить инт на флот?
+
