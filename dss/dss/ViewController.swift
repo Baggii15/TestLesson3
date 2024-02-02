@@ -111,7 +111,7 @@ var isNight: Bool = true
         print("is Night")
     }
 
-// Тут было много попыток, не понимаю почему не выводится в консоль?
+
 
 //task 6
 let str: String = "TestValue"
