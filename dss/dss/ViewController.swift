@@ -46,4 +46,7 @@ UInt32.max
 UInt.min
 UInt.max
 
+var string: String = "sddd"
+print(string.count)
+//end
 
