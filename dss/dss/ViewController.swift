@@ -77,3 +77,52 @@ let k: Float = 77.77
 var result4 = j % Int(k)
 print(f)  //остаток от деления имеет тип Float, почему тогда нельзя сразу делить инт на флот?
 
+let l: Float = 17.88
+let u: Double = 10.15
+var result5 = Double(l) / u
+print(result5)
+
+let i: Double = 199.99
+let p: Float = 16.55
+var result6 = Float(i) * p
+print(result6)
+
+let s: Float = 134.55
+let v: Int = 19
+var result7 = Float(v) + s
+print(result7)
+
+let m: Int = 13
+let n: Int = 17
+var result8 = n + m
+print("ответ \(result8)")
+
+let vv: Int = 15
+let nn: Int = 15
+var result9 = n + m
+print("ответ \(n) + \(m) = \(result9)")
+
+//taskt 5
+
+var isNight: Bool = true
+    if isNight == false {
+        print("is Day")
+    }   else if isNight == true {
+        print("is Night")
+    }
+
+
+
+//task 6
+let str: String = "TestValue"
+
+switch str {
+case "a":
+    print("Test")
+case "b":
+    print("Value")
+default:
+    print("Test Value")
+}
+
+
